@@ -85,7 +85,7 @@ td{
 
 .header_list{
     display: flex;
-    margin: 8 px;
+    margin: 8px;
     position: relative;
     z-index: 4;
 }
@@ -115,7 +115,7 @@ td{
 }
 
 .header_logo img{
-    flex: 0 0 60;
+    flex: 6px;
     float: left;
     border-radius: 50%;
     overflow: hidden;
@@ -127,9 +127,13 @@ td{
     margin: 0px 0px 0px 5px;
     font-family: 'Raleway', 
     sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 34px;
     line-height: 160%;
+}
+
+#now{
+    text-decoration: underline;
 }
 
 /*Intro*/
@@ -208,7 +212,7 @@ td{
     height: 327px;
     width: 100%;
     background-color: #59504c;
-    display: relative;
+    position: relative;
     z-index: 0;
 }
 
@@ -286,7 +290,7 @@ td{
 #cell a{
     font-family: Open-Sans, sans-serif;
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     text-decoration: underline;
     color:#111111;
     text-transform: uppercase;
@@ -301,7 +305,7 @@ td{
     position: relative;
     background-color: #333333;
     height:120px;
-    width:100;
+    width: 100%;
 }
 
 .footer_body{
@@ -312,13 +316,13 @@ td{
     justify-content: space-between;
     background-color: #333333;
     height:120px;
-    width:100;
+    width: 100%;
 }
 .footer_info{
     display: flex;
     font-family: Open-Sans, sans-serif;
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     color:#c9cacc
 }
 
@@ -404,7 +408,7 @@ td{
         top: -100%;
         left: 0;
         width: 100%;
-        height: 50;
+        height: 50px;
         background-color: whitesmoke;
         transition: all 0.3s ease 0s;
         font-size: 20px;

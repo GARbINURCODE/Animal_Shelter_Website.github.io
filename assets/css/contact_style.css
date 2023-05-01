@@ -131,6 +131,10 @@ td{
     line-height: 160%;
 }
 
+#now{
+    text-decoration: underline;
+}
+
 /*Intro*/
 .intro{
     width: 100%;
@@ -297,7 +301,7 @@ td{
     line-height: 120%;
 }
 
-.happy_text p{
+.happy_text dl{
     font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -442,7 +446,7 @@ td{
 mark{
     font-family: Open-Sans, sans-serif;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .contact_form input{
@@ -617,7 +621,7 @@ mark{
 .subscribe_text p{
     font-family: Poppins, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     line-height: 110%;
     letter-spacing: 1px;
@@ -630,7 +634,7 @@ mark{
     position: relative;
     background-color: #333333;
     height:120px;
-    width:100;
+    width:100%;
 }
 
 .footer_body{
@@ -641,12 +645,12 @@ mark{
     justify-content: space-between;
     background-color: #333333;
     height:120px;
-    width:100;
+    width:100%;
 }
 .footer_info{
     display: flex;
     font-family: Open-Sans, sans-serif;
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     color:#c9cacc
 }

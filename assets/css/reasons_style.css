@@ -44,7 +44,7 @@
 
 .header_list{
     display: flex;
-    margin: 8 px;
+    margin: 8px;
     position: relative;
     z-index: 4;
 }
@@ -74,7 +74,7 @@
 }
 
 .header_logo img{
-    flex: 0 0 60;
+    flex: 6;
     float: left;
     border-radius: 50%;
     overflow: hidden;
@@ -86,9 +86,13 @@
     margin: 0px 0px 0px 5px;
     font-family: 'Raleway', 
     sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 34px;
     line-height: 160%;
+}
+
+#now{
+    text-decoration: underline;
 }
 
 /*Guide*/
@@ -112,12 +116,12 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    align-items: top;
+    align-items: start;
     background-color: #f7f5f5;
 }
 
 .guide_stripe{
-    display:relative;
+    position: relative;
     z-index: 0;
     background-color: #ded9d7;
     height: 351px;
@@ -255,12 +259,12 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    align-items: top;
+    align-items: start;
     background-color: #59504c;
 }
 
 .reasons_stripe{
-    display:relative;
+    position: relative;
     z-index: 0;
     background-color: #f7f5f5;
     height: 447px;
@@ -349,7 +353,7 @@
     position: relative;
     background-color: #333333;
     height:120px;
-    width:100;
+    width: 100%;
 }
 
 .footer_body{
@@ -360,13 +364,13 @@
     justify-content: space-between;
     background-color: #333333;
     height:120px;
-    width:100;
+    width: 100%;
 }
 .footer_info{
     display: flex;
     font-family: Open-Sans, sans-serif;
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     color:#c9cacc
 }
 
@@ -451,7 +455,7 @@
         top: -100%;
         left: 0;
         width: 100%;
-        height: 50;
+        height: 50px;
         background-color: whitesmoke;
         transition: all 0.3s ease 0s;
         font-size: 20px;

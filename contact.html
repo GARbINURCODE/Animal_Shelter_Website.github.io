@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=PT+Sans&family=Raleway:wght@700&family=Roboto:wght@300;400;700;900&display=swap"
         rel="stylesheet">
+
+    <script src="assets\js\main.js" defer></script>
     <title>Связаться с нами</title>
 </head>
 
@@ -30,7 +32,7 @@
                         <ul class="header_list">
                             <li><a class="header_link" href="index.html">Главная</a></li>
                             <li><a class="header_link" href="reasons.html">Причины завести питомца</a></li>
-                            <li><a class="header_link" href="contact.html">Связаться с нами</a></li>
+                            <li><a class="header_link" id="now" href="contact.html">Связаться с нами</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -46,32 +48,32 @@
                         <div class="grid_item">
                             <h4>Справочник по животным</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="#">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                         <div class="grid_item">
                             <h4>Лучшие советы</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                         <div class="grid_item">
                             <h4>Лучшие игрушки</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="#">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                         <div class="grid_item">
                             <h4>Товары для животных</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="#">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                         <div class="grid_item">
                             <h4>Любовь к животным</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="#">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                         <div class="grid_item">
                             <h4>Подарки для питомца</h4>
                             <p>А ещё элементы политического процесса призывают нас к новым свершениям.</p>
-                            <a href="#">Узнать больше</a>
+                            <a href="#contact">Узнать больше</a>
                         </div>
                     </div>
                 </div>
@@ -87,15 +89,25 @@
                     <div class="happy_grid">
                         <div class="happy_text">
                             <h3>Обеспечение счастья домашних животных</h3>
-                            <p>Есть над чем задуматься: диаграммы связей являются только методом политического участия и
-                                представлены в исключительно положительном свете. Приятно, граждане, наблюдать, как
-                                явные признаки победы институционализации призваны к ответу.</p>
-                            <a href="#" class="article_btn">
+                            <dl>
+                                <dt>Питомец это:</dt>
+                                <dd>Друг, который никогда не оставит в беде или с плохим настроением;</dd>
+                                <dd>Член семьи, который растет у вас на глазах;</dd>
+                                <dd>Радость каждый день и даже в самую пасмурную погоду;</dd>
+                                <dd>Безвозмездная любовь за сам факт вашего существования в мире;</dd>
+                                <dd>Домашний психолог, который всегда выслушает и поддержит.</dd>
+                            </dl>
+                            <a href="#contact" class="article_btn" id="contact">
                                 <span>Узнать больше</span>
                             </a>
                         </div>
-                        <div class="happy_img">
+                        <div class="happy_img" onclick = "return Get_Prompt()">
                             <img src="assets/img/happy.jpg" alt="happy pic">
+                            <script> 
+                                function Get_Prompt(){
+                                    prompt("Как вы оцениваете даную работу?" , "Костя лучший!!!");
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
